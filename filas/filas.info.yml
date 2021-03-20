@@ -1,0 +1,5 @@
+name: Mi Plugin Filas
+type: module
+description: Crear Filas Automaticament
+core_version_requirement: ^9
+package: Custom

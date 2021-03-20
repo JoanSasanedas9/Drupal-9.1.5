@@ -1,0 +1,14 @@
+filas.form:
+  path: '/filas-form'
+  defaults:
+    _title: 'Introdueix el numero de linies que vols mostrar'
+    _form: \Drupal\filas\Form\FilasForm
+  requirements:
+    _access: 'TRUE'
+
+filas.rows:
+  path: '/filas/{numero}'
+  defaults:
+    _controller: \Drupal\filas\Controller\FilasController::filas
+  requirements:
+    _access: 'TRUE'
